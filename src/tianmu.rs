@@ -26,6 +26,8 @@ impl TianMu {
             root_idx: setting.root_table_offset as usize / setting.bytes_per_block as usize,
         }
     }
+
+    
 }
 
 

@@ -8,10 +8,7 @@ edition = "2018"
 [dependencies]
 tianmu-fs = { path = "../tianmu-fs" }
 tisu-fs = { path = "../tisu-fs" }
-device-buffer = { path = "../device-buffer" }
-tisu-memory = { path = "../tisu-memory" }
 tisu-driver = { path = "../tisu-driver" }
 # tianmu-fs = { git = "https://github.com/TisuOS/tianmu-fs" }
 # tisu-fs = { git = "https://github.com/TisuOS/tisu-fs" }
 # device-buffer = { git = "https://github.com/TisuOS/device-buffer" }
-# tisu-memory = { git = "https://github.com/TisuOS/tisu-memory" }

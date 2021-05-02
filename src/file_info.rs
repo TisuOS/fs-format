@@ -7,8 +7,6 @@ pub struct FileInfo {
     pub id : usize,
     pub device_id : usize,
     pub start_idx : usize,
-    pub name : *const char,
-    pub path : *const char,
     pub flag : usize,
     pub size : usize,
 }
@@ -19,8 +17,6 @@ impl Clone for FileInfo {
             id:self.id,
             device_id:self.device_id,
             start_idx:self.start_idx,
-            name:self.name,
-            path:self.path,
             flag:self.flag,
             size:self.size,
         }
@@ -32,8 +28,6 @@ impl FileInfo {
         id:usize,
         device_id:usize,
         start_idx:usize,
-        name:*const char,
-        path:*const char,
         flag:usize,
         size:usize,
     )->Self {
@@ -41,8 +35,6 @@ impl FileInfo {
             id,
             device_id,
             start_idx,
-            name,
-            path,
             flag,
             size,
         }

@@ -5,6 +5,7 @@
 
 use tianmu_fs::SuperBlock;
 #[allow(dead_code)]
+#[derive(Debug, Clone, Copy)]
 pub struct TianMu{
     pub device_id : usize,
     pub total_size : usize,

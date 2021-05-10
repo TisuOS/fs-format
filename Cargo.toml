@@ -10,5 +10,5 @@ edition = "2018"
 # tisu-fs = { path = "../tisu-fs" }
 # tisu-driver = { path = "../tisu-driver" }
 tianmu-fs = { git = "https://github.com/TisuOS/tianmu-fs", tag = "v1.0" }
-tisu-fs = { git = "https://github.com/TisuOS/tisu-fs", tag = "v3.0" }
+tisu-fs = { git = "https://github.com/TisuOS/tisu-fs", tag = "v4.0" }
 tisu-driver = { git = "https://github.com/TisuOS/tisu-driver", tag = "v3.0" }
